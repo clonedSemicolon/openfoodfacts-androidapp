@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
-      - uses: clonedSemicolon/setup-strace@v3   
+      - uses: clonedSemicolon/setup-strace@v4   
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
@@ -56,7 +56,7 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
-      - uses: clonedSemicolon/setup-strace@v3 
+      - uses: clonedSemicolon/setup-strace@v4 
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
@@ -86,7 +86,7 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
-      - uses: clonedSemicolon/setup-strace@v3 
+      - uses: clonedSemicolon/setup-strace@v4 
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
@@ -140,7 +140,7 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
-      - uses: clonedSemicolon/setup-strace@v3 
+      - uses: clonedSemicolon/setup-strace@v4
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
@@ -176,7 +176,7 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
-      - uses: clonedSemicolon/setup-strace@v3 
+      - uses: clonedSemicolon/setup-strace@v4
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
